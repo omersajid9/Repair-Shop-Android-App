@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RepairShop/app/src/main/res/layout/activity_add_repair.xml" value="0.3" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RepairShop/app/src/main/res/layout/activity_add_vehicle.xml" value="0.3" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RepairShop/app/src/main/res/layout/activity_main.xml" value="0.3" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RepairShop/app/src/main/res/layout/activity_search_repairs.xml" value="0.3" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RepairShop/app/src/main/res/layout/listview_results_row.xml" value="0.3" />
+        <entry key="app/src/main/res/layout/activity_add_repair.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/activity_add_vehicle.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30648148148148147" />
+        <entry key="app/src/main/res/layout/activity_search_repairs.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/activity_update_repair.xml" value="0.358974358974359" />
+        <entry key="app/src/main/res/layout/listview_results_row.xml" value="0.358974358974359" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

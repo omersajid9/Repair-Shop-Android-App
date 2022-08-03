@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddVehicleActivity">
+
+    <TextView
+        android:id="@+id/label_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="17dp"
+        android:text="Year: "
+        app:layout_constraintEnd_toStartOf="@+id/edittext_year"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBaseline_toBaselineOf="@+id/label_year"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label_make_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make and Model:"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edittext_make_model"
+        app:layout_constraintEnd_toStartOf="@+id/edittext_year"
+        app:layout_constraintStart_toStartOf="@+id/edittext_year" />
+
+    <EditText
+        android:id="@+id/edittext_make_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/label_make_model"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_year" />
+
+    <TextView
+        android:id="@+id/label_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="11dp"
+        android:text="Purchase Price: "
+        app:layout_constraintBottom_toBottomOf="@+id/edittext_price"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_make_model"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_make_model" />
+
+    <CheckBox
+        android:id="@+id/checkbox_is_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="Is New"
+        app:layout_constraintBottom_toTopOf="@+id/button_add_vehicle"
+        app:layout_constraintStart_toStartOf="@+id/edittext_price" />
+
+    <Button
+        android:id="@+id/button_add_vehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Add Vehicle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_price" />
+</androidx.constraintlayout.widget.ConstraintLayout>
